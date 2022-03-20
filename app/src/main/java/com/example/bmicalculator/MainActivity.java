@@ -1,3 +1,9 @@
+/*
+Michał Kaczmarek s18464
+BMI Calculator
+*/
+
+
 package com.example.bmicalculator;
 /*
 Michał Kaczmarek s18464
