@@ -1,5 +1,8 @@
 package com.example.bmicalculator;
-
+/*
+Michał Kaczmarek s18464
+BMI Calculator
+*/
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
