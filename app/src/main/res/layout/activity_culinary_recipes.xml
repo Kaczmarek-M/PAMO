@@ -6,18 +6,51 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Culinary_recipes">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="First cooking recipe"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/firstRec"
+        android:layout_margin="15dp"
+        android:text="Asparagus With Sherry and Bacon Vinaigrette"
+        tools:ignore="OnClick"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Second cooking recipe"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/secondRec"
+        android:layout_margin="15dp"
+        android:text="Ravioli Alfredo with Herbes de Provence Recipe"
+        tools:ignore="OnClick"/>
 
     <Button
         android:id="@+id/back"
         android:layout_width="140dp"
         android:layout_height="60dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="100dp"
         android:background="@drawable/ic_launcher_background"
         android:text="Back"
         android:textColor="@color/white"
         android:textSize="25sp"
-        android:textStyle="bold"></Button>
+        android:textStyle="bold"/>
 
 
 
